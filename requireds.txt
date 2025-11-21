@@ -1,0 +1,31 @@
+Ótimo. É bem simples. Você fará isso pelo seu terminal.
+
+Siga estes 3 passos:
+
+1. Abra seu Terminal
+Abra o seu "Prompt de Comando", "PowerShell" (no Windows) ou "Terminal" (no macOS/Linux).
+
+2. Navegue até a Pasta
+Use o comando cd (change directory) para entrar na pasta exata onde você salvou os arquivos app.py e requirements.txt.
+
+Exemplo Windows: cd C:\Users\SeuNome\Desktop\ProjetoIdeathon
+
+Exemplo macOS/Linux: cd /home/SeuNome/Projetos/Ideathon
+
+3. Instale e Execute
+Primeiro, instale o Streamlit (caso ainda não tenha feito), usando o arquivo que criamos:
+
+Bash
+
+pip install -r requirements.txt
+Assim que terminar a instalação, rode o aplicativo com o comando:
+
+Bash
+
+streamlit run app.py
+O que vai acontecer
+Depois de rodar o último comando, seu navegador de internet vai abrir automaticamente 🚀.
+
+Ele mostrará seu aplicativo rodando localmente (o endereço será algo como http://localhost:8501).
+
+Você já poderá usar a interface e os botões da barra lateral que criamos.
